@@ -1,5 +1,5 @@
 {
-  "name": "react-native-orientation-view",
+  "name": "rn-orientation-view",
   "version": "1.0.0",
   "description": "A react native component to handle orientation change",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AKL-devCake-AB/react-native-orientation-view.git"
+    "url": "git+https://github.com/AKL-devCake-AB/rn-orientation-view.git"
   },
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
   "author": "georgiosApo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AKL-devCake-AB/react-native-orientation-view/issues"
+    "url": "https://github.com/AKL-devCake-AB/rn-orientation-view/issues"
   },
-  "homepage": "https://github.com/AKL-devCake-AB/react-native-orientation-view#readme"
+  "homepage": "https://github.com/AKL-devCake-AB/rn-orientation-view#readme"
 }
