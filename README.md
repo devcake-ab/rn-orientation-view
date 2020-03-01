@@ -19,7 +19,7 @@ import OrientationView from 'rn-orientation-view';
     landscapeStyles={{ flexDirection: 'row' }}
 >
     ...
-</OrientatinView>
+</OrientationView>
 ```
 
 
