@@ -1,1 +1,1 @@
-# react-native-orientation-view
+# rn-orientation-view
