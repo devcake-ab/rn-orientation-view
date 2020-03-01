@@ -1,6 +1,6 @@
 {
   "name": "rn-orientation-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react native component to handle orientation change",
   "main": "index.js",
   "scripts": {
