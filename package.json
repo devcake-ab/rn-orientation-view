@@ -1,10 +1,14 @@
 {
   "name": "rn-orientation-view",
-  "version": "1.0.3",
+  "version": "2.0.2",
   "description": "A react native component to handle orientation change",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup index.tsx --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,15 @@
   "bugs": {
     "url": "https://github.com/AKL-devCake-AB/rn-orientation-view/issues"
   },
-  "homepage": "https://github.com/AKL-devCake-AB/rn-orientation-view#readme"
+  "homepage": "https://github.com/AKL-devCake-AB/rn-orientation-view#readme",
+  "devDependencies": {
+    "@types/react": "^18.2.65",
+    "@types/react-native": "^0.73.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.6"
+  }
 }
